@@ -1,7 +1,14 @@
-
 /* Styles for the custom header */
+* {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
 .custom-header {
     background-color: #333;
+    margin-left: 0;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -14,6 +21,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .custom-header .custom-header-inner .logo-menu {
     max-width: 1200px;
     margin: 0 200px;
@@ -21,16 +29,17 @@
     justify-content: space-between;
     align-items: center;
 }
-.custom-header .material-symbols-outlined
-{
+
+.custom-header .material-symbols-outlined {
     font-size: 20px;
     color: #fff;
-    
+
 }
+
 .custom-header .custom-logo {
     font-size: 16px;
     color: #fff;
-    font-family: "Centuria", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif; 
+    font-family: "Centuria", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-weight: bold;
     margin-left: 5px;
     text-decoration: none;
@@ -55,15 +64,15 @@
     border-radius: 5px;
     border-width: 1px;
     border-color: rgb(83, 83, 83);
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .custom-header .custom-header-inner .dropmenu {
+}
+
+/* The container <div> - needed to position the dropdown content */
+.custom-header .custom-header-inner .dropmenu {
     position: relative;
 
     display: inline-block;
-  }
-  
+}
+
 /* Styles for the custom hero section */
 .custom-hero {
     background-color: #ffffff;
@@ -78,14 +87,14 @@
 
 .custom-hero .custom-hero-title {
     font-size: 36px;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
     color: #333;
 }
 
 .custom-hero .custom-hero-description {
     font-size: 18px;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 100;
     color: #555;
 }
@@ -96,7 +105,7 @@
     text-decoration: none;
     border: none;
     cursor: pointer;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 4px;
 }
 
@@ -129,6 +138,7 @@
 .custom-card {
     background-color: #ffffff;
     border: 1px solid #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 4px;
     margin: 10px;
     padding: 0px;
@@ -144,14 +154,39 @@
 }
 
 .custom-card .custom-card-title {
-    font-size: 24px;
+    font-size: 20px;
     color: #333;
 }
 
 .custom-card .custom-card-description {
-    font-size: 16px;
+    margin-top: -15px;
+    font-size: 12px;
     color: #555;
     margin-bottom: 20px;
+}
+
+.custom-card .bartwin {
+    margin-left: 15px;
+}
+
+.custom-card .custom-btn {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    font-size: 12px;
+    color: #000000;
+    float: left;
+    border-radius: 0px;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.custom-card .custom-card-price {
+    font-size: 12px;
+    color: #d11515;
+    float: right;
+    padding-right: 30px;
 }
 
 /* Styles for the custom footer */
@@ -170,10 +205,20 @@
 .custom-footer .custom-footer-text {
     font-size: 14px;
     color: #000000;
-    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .custom-footer .custom-footer-link {
     color: #007bff;
     text-decoration: none;
+}
+
+.button-go-top {
+    background: #ffffff;
+    margin-top: -50px;
+    font-size: 12px;
+    color: #000000;
+    float: right;
+    border: none;
+    padding-right: 30px;
 }
