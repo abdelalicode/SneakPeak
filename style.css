@@ -3,7 +3,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body{
 .custom-header {
     background-color: #333;
     margin-left: 0;
-    color: #fff;
+    /* color: #fff; */
     padding: 10px 0;
     text-align: center;
 }
@@ -32,7 +32,7 @@ body{
     align-items: center;
 }
 
-.custom-header .material-symbols-outlined {
+.custom-header .fa-chess-rook {
     font-size: 20px;
     color: #fff;
 
@@ -78,7 +78,7 @@ body{
 /* Styles for the custom hero section */
 .custom-hero {
     background-color: #ffffff;
-    background-image:url('images/bg.jpg');
+    background-image: url('images/bg.jpg');
     height: auto;
     padding: 60px 0;
     text-align: center;
@@ -90,17 +90,17 @@ body{
 }
 
 .custom-hero .custom-hero-title {
-    font-size: 36px;
+    font-size: 44px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px #000000;
-    font-weight: 900;
+    font-weight: bolder;
     color: #ffffff;
 }
 
 .custom-hero .custom-hero-description {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1.5px 1.5px #000000;
     font-weight: 300;
     color: #ffffff;
 }
@@ -116,7 +116,7 @@ body{
 }
 
 .custom-primary-btn {
-    background-color: #007bff;
+    background-color: #d6b303;
     color: #fff;
 }
 
