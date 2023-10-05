@@ -2,10 +2,12 @@
 * {
     scroll-behavior: smooth;
 }
+
 body{
     margin: 0;
     padding: 0;
 }
+
 .custom-header {
     background-color: #333;
     margin-left: 0;
@@ -76,6 +78,8 @@ body{
 /* Styles for the custom hero section */
 .custom-hero {
     background-color: #ffffff;
+    background-image:url('bg.jpg');
+    height: auto;
     padding: 60px 0;
     text-align: center;
 }
@@ -88,15 +92,17 @@ body{
 .custom-hero .custom-hero-title {
     font-size: 36px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
-    color: #333;
+    text-shadow: 1px 1px #000000;
+    font-weight: 900;
+    color: #ffffff;
 }
 
 .custom-hero .custom-hero-description {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    color: #555;
+    text-shadow: 1px 1px #000000;
+    font-weight: 300;
+    color: #ffffff;
 }
 
 /* Styles for the custom buttons */
@@ -190,6 +196,7 @@ body{
 }
 
 /* Styles for the custom footer */
+
 .custom-footer {
     background-color: #ffffff;
     color: #fff;
