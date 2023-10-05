@@ -78,7 +78,7 @@ body{
 /* Styles for the custom hero section */
 .custom-hero {
     background-color: #ffffff;
-    background-image:url('bg.jpg');
+    background-image:url('images/bg.jpg');
     height: auto;
     padding: 60px 0;
     text-align: center;
